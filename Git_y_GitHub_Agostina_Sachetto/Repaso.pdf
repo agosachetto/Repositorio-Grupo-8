@@ -1,0 +1,30 @@
+Comandos más utilizados:
+mkdir: crear un directorio (carpeta)
+touch: crear un archivo de cualquien extensión
+rm: eliminar un archivo
+rmdir: eliminar una carpeta vacía
+rm -r: eliminar una carpeta y su contenido
+ls: ver el contenido de un directorio
+ls -a: ver el contenido de un directorio incluso los archivos ocultos
+pwd: indica la ruta absoluta y la ubicación en la que me encuentro 
+trabajando
+mv: mover o renombrar
+cp: copiar
+git init: iniciar un repositorio local
+git add: agregar archivos o directorios al repositorio local
+git status: para ver si los archivos están tracked o untracked
+git commit -m "": para confirmar los archivos agregados con git add
+git remote add origin + URL: para conectar un repositorio local con un 
+repositorio en la nube
+git config user.name "": usuario de github
+git config user.email "": mail de github
+git remote -v: para chequear que estoy conectado al repositorio en la 
+nube
+git push origin main: para subir los archivos que tengo en el repositorio 
+local al repositorio en la nuebe en la rama main, solo se pueden subir a 
+la nube los archivos previamente commiteados
+git clone + URL: para crear una copia exacta del directorio en la nueba, 
+en mi dispoditivo local,es para archivos que no estén todavía en la 
+computadora
+git pull origin main: actualiza en el repositorio local los cambios 
+realizados en la nube en la rama main
